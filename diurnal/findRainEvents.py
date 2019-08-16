@@ -111,8 +111,7 @@ def getStormData(dfDaily,dfHourly,gageName):
     elif rainDates[-1] + dt.timedelta(days=2)>endDate:
         del rainDates[-1]
     else:
-        pass
-    
+        pass    
     # find the time that the rain starts for each date
     tStart = []
     eventDur = []
